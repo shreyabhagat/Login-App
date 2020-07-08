@@ -6,6 +6,6 @@ class ConformPassword extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return getTextField(
-        'Conform Password', AppColors.deepOrangeColor, Icons.lock, false);
+        'Conform Password', AppColors.deepOrangeColor, Icons.lock, true);
   }
 }
